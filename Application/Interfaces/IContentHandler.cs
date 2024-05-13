@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 using Application.Handlers.Content.Commands;
 
-namespace Application;
+namespace Application.Interfaces;
 
 public interface IContentHandler
 {

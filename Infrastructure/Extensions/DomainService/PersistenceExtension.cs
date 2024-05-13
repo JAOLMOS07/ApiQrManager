@@ -12,6 +12,7 @@ public static class DomainExtensions {
     public static IServiceCollection AddDomainServices(this IServiceCollection svc) {
       
         svc.AddTransient(typeof(ContentService));
+        svc.AddTransient(typeof(LinkServices));
      
         return svc;
     }
