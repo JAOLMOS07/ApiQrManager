@@ -1,4 +1,5 @@
 using System.Data;
+using Domain.Services;
 using Infrastructure.Adapters.Repository;
 using Infrastructure.Extensions.Persistence;
 using Microsoft.Data.SqlClient;
@@ -10,7 +11,7 @@ namespace Infrastructure.Extensions.DomainService;
 public static class DomainExtensions {
     public static IServiceCollection AddDomainServices(this IServiceCollection svc) {
       
-        //svc.AddTransient(typeof(SectionService));
+        svc.AddTransient(typeof(ContentService));
      
         return svc;
     }

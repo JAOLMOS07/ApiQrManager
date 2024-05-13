@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a0VB7Xli93m/xw8C3GrZ1UTZ0u3Uax9oG/pInwvwVDCFtqwfCIjgsXMyNYTfNqvDoDm0Bp+aoVqqFzN7+md83w==",
+  "dgSpecHash": "GoLbo47aVmSWGtWhOxKnspeWbDQEaVD0D4kzh0PMpQzFn+OVVmYOxv7uA5bQrUzYjIk+SbCbkZ3iRTt6hfX0Cw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad\\6. Sexto Semestre\\Programación móvil\\ApiQrManager\\Api\\Api.csproj",
   "expectedPackageFiles": [
@@ -63,9 +63,11 @@
     "C:\\Users\\PC\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.healthchecks\\2.2.0\\microsoft.aspnetcore.diagnostics.healthchecks.2.2.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.data.sqlclient\\3.0.1\\microsoft.data.sqlclient.3.0.1.nupkg.sha512",

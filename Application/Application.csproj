@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\Domain.csproj" />
+        <PackageReference Include="Ardalis.Specification" Version="6.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    </ItemGroup>
+
 </Project>
