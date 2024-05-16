@@ -22,6 +22,12 @@ public class LinkHandler:ILinkHandler
         await _linkService.CreateAsync(newLink);
     }
 
+    public async Task AssociateContentToLinkAsync(AssociateContentToLinkCommand command)
+    {
+        await _linkService.AssociateContentToLinkAsync(command.LinkId, command.ContentId);
+        
+    }
+
     public async Task<IEnumerable<Domain.Entities.Link>> GetLinkAsync(Expression<Func<Domain.Entities.Link, bool>> filter = null, Func<IQueryable<Domain.Entities.Link>, IOrderedQueryable<Domain.Entities.Link>> orderBy = null, bool isTracking = false,
         params Expression<Func<Domain.Entities.Link, object>>[] includeObjectProperties)
     {
@@ -29,7 +35,7 @@ public class LinkHandler:ILinkHandler
     }
     private Domain.Entities.Link MapCommandToEntity(CreateLinkCommand command, Guid id)
     {
-        return new Domain.Entities.Link(id,command.LastRenewalDate,command.SubscriptionType);
-        
+        return new Domain.Entities.Link(id,DateTime.Now,command.SubscriptionType);
     }
+    
 }

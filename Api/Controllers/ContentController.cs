@@ -18,6 +18,7 @@ public class ContentController: ControllerBase
     }
     
     [HttpPost]
+    [AllowAnonymous]
     public async Task<IActionResult> CreateContent( CreateContentCommand command)
     {
         await _contentHandler.CreateContentAsync(command);

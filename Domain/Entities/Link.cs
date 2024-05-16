@@ -17,7 +17,8 @@ public class Link: EntityBase<Guid>
         Active = true;
     }
 
-    public Guid? ContentId { get; private set; }
+    public Guid? ContentId { get;  set; }
+    public string? ContentTitle { get;  set; }
     public DateTime LastRenewalDate { get;  set; }
     public SubscriptionType SubscriptionType { get;  set; }
     public bool Active { get;  set; }
@@ -25,6 +26,7 @@ public class Link: EntityBase<Guid>
     public void AssociateContent(Content content)
     {
         ContentId = content.Id;
+        ContentTitle = content.Title;
     }
 
     public void SetActiveLink(bool active)

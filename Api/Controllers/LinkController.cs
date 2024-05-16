@@ -29,4 +29,13 @@ public class LinkController: ControllerBase
         var links = await _linkHandler.GetLinkAsync();
         return Ok(links);
     }
+    [HttpPatch("{id}")]
+    [AllowAnonymous]
+
+    public async Task<IActionResult> AssociateOneContent(string id, [FromBody] AssociateContentToLinkCommand toLinkCommand)
+    {
+        toLinkCommand.LinkId = id;
+        await _linkHandler.AssociateContentToLinkAsync(toLinkCommand);
+        return Ok();
+    }
 }

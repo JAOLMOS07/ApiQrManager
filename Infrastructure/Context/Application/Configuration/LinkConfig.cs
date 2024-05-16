@@ -14,6 +14,9 @@ public class LinkConfig: IEntityTypeConfiguration<Link>
         builder
             .Property(link => link.ContentId);
         builder
+            .Property(link => link.ContentTitle);
+
+        builder
             .Property(order => order.LastRenewalDate)
             .IsRequired();
         builder

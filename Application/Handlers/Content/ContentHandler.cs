@@ -23,7 +23,7 @@ public class ContentHandler:IContentHandler
             MultimediaUrl.Add("img.com/example");
         }
 
-        Domain.Entities.Content content = MapCommandToEntity(command, id, MultimediaUrl);
+        Domain.Entities.Content content = MapCommandToEntity(command, id, command.Multimedia);
         await _contentService.CreateAsync(content);
       
     }

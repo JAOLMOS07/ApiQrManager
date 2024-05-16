@@ -8,14 +8,14 @@ public class CreateLinkCommand
     {
     }
 
-    public CreateLinkCommand(DateTime lastRenewalDate, SubscriptionType subscriptionType)
+    public CreateLinkCommand( SubscriptionType subscriptionType)
     {
-        LastRenewalDate = lastRenewalDate;
+      
         SubscriptionType = subscriptionType;
      
     }
 
-    public DateTime LastRenewalDate { get;  set; }
+ 
     public SubscriptionType SubscriptionType { get;  set; }
    
 }
